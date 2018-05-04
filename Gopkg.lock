@@ -33,8 +33,8 @@
     "service/dynamodb",
     "service/sts"
   ]
-  revision = "cb873de7862ba08c63e82f37ffebc5ba02d87d26"
-  version = "v1.13.38"
+  revision = "94cafaad88022c44cb85d4998350b127845245ed"
+  version = "v1.13.41"
 
 [[projects]]
   name = "github.com/fsnotify/fsnotify"
@@ -67,8 +67,8 @@
 [[projects]]
   name = "github.com/golang/protobuf"
   packages = ["proto"]
-  revision = "925541529c1fa6821df4e44ce2723319eb2be768"
-  version = "v1.0.0"
+  revision = "b4deda0973fb4c70b50d226b1af49f3da59f5265"
+  version = "v1.1.0"
 
 [[projects]]
   branch = "master"
@@ -186,13 +186,19 @@
   branch = "master"
   name = "github.com/sethgrid/pester"
   packages = ["."]
-  revision = "38b020c58c99152830334916f25375e6bdbf9567"
+  revision = "03e26c9abbbf5accb8349790bf9f41bde09d72c3"
 
 [[projects]]
   name = "github.com/sirupsen/logrus"
   packages = ["."]
   revision = "c155da19408a8799da419ed3eeb0cb5db0ad5dbc"
   version = "v1.0.5"
+
+[[projects]]
+  name = "github.com/smartystreets/go-aws-auth"
+  packages = ["."]
+  revision = "8ef1316913ee4f44bc48c2456e44a5c1c68ea53b"
+  version = "1.0.0"
 
 [[projects]]
   name = "github.com/spf13/afero"
@@ -249,7 +255,7 @@
   branch = "master"
   name = "golang.org/x/crypto"
   packages = ["ssh/terminal"]
-  revision = "b49d69b5da943f7ef3c9cf91c8777c1f78a0cc3c"
+  revision = "1f94bef427e370e425e55b172f3b5e300ef38304"
 
 [[projects]]
   branch = "master"
@@ -261,7 +267,7 @@
     "idna",
     "lex/httplex"
   ]
-  revision = "5f9ae10d9af5b1c89ae6904293b14b064d4ada23"
+  revision = "640f4622ab692b87c2f3a94265e6f579fe38263d"
 
 [[projects]]
   branch = "master"
@@ -270,7 +276,7 @@
     "unix",
     "windows"
   ]
-  revision = "cbbc999da32df943dac6cd71eb3ee39e1d7838b9"
+  revision = "6f686a352de66814cdd080d970febae7767857a3"
 
 [[projects]]
   name = "golang.org/x/text"
@@ -308,6 +314,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "9fd8365cce5e5e119a2ef66a75f5b44d59a1f32d76f57ffd694cca9e8dc78988"
+  inputs-digest = "43d585c57d904257f89842c6f4143c48434e9d511c72afa49e81121270730378"
   solver-name = "gps-cdcl"
   solver-version = 1

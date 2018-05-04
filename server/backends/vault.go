@@ -4,6 +4,7 @@ import (
 	"path"
 	"strings"
 
+	"github.com/dblooman/baffle/server/logger"
 	vault "github.com/hashicorp/vault/api"
 )
 
@@ -36,6 +37,7 @@ func (v VaultClient) Write() (Response, error) {
 
 	resp, err := l.Write(path, data)
 	if err != nil {
+		logger.Error(err)
 		return Response{}, err
 	}
 
